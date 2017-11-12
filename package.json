@@ -21,12 +21,12 @@
         "mongoose": "^4.13.1"
     },
     "devDependencies": {
-        "mocha": "^3.4.2",
+        "mocha": "^4.0.1",
         "supertest": "^3.0.0",
         "tslint-config-airbnb": "^5.2.1"
     },
     "scripts": {
-        "test": "nodemon --exec 'mocha dist/test --recursive -R min'",
+        "test": "nodemon --exec \"mocha dist/test --recursive -R min\"",
         "start": "nodemon dist/src/index -e js"
     },
     "repository": {
